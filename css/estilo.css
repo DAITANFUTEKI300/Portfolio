@@ -415,6 +415,26 @@ header .header-content .header-content-inner p {
   margin-bottom: 50px;
   margin-right: 50%;
     text-align: left;
+    
+    /*efeito digitação*/
+     border-right: 4px solid;
+    width: 22ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(22),
+    blinking 0.5s infinite step-end alternate;
+}
+/*efeito digitação*/
+@keyframes typing{
+  from{
+      width: 0;
+  }
+}
+
+@keyframes blinking{
+  50%{
+      border-color: transparent;
+  }
 }
 
 
