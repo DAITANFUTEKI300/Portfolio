@@ -415,9 +415,9 @@ header .header-content .header-content-inner p {
   margin-bottom: 50px;
   margin-right: 50%;
     text-align: left;
-    
+
     /*efeito digitação*/
-     border-right: 4px solid;
+    border-right: 4px solid;
     width: 22ch;
     white-space: nowrap;
     overflow: hidden;
@@ -436,8 +436,6 @@ header .header-content .header-content-inner p {
       border-color: transparent;
   }
 }
-
-
 
 span {
   color: #7141D8;
@@ -696,6 +694,7 @@ span {
   }
 }
 
+
 .modal4-images {
   display: flex;
   justify-content: center;
@@ -715,6 +714,7 @@ span {
       max-width: 70%; /* ajusta o tamanho da imagem em telas menores */
   }
 }
+
 
 
 figure {
