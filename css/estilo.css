@@ -565,14 +565,22 @@ span {
 
 .modal-content {
   background-color: #11071F;
-  margin: 15% auto; 
+  margin: 15% auto;
   padding: 20px;
   border: 1px solid rgb(129, 77, 177);
-  width: 80%; 
+  width: 50%;
   border-radius: 10px;
   transition: all 1.9s ease-in-out;
-
+  overflow-y: auto; /* adicione esta propriedade */
 }
+
+@media (max-width: 768px) {
+  .modal-content {
+    width: 90%;
+    max-height: 90%;
+  }
+}
+
 
 .modal-content img:hover {
   transform: scale(1.2);
